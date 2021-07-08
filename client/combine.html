@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <script type="text/javascript" src="web3.min.js"></script>
+    <script type="text/javascript" src="TokenABI.js"></script>
+    <link rel="stylesheet" href="style.css" />
+       
+</head>
+<body>
+
+  <img
+  src="https://yos.io/assets/wrapped0.gif"
+  height="250px"
+  width="300px"/>
+
+
+<button class="magicButton">Link to MetaMask Wallet</button>
+
+<div id ="intro">
+
+    <h3>Your Account Address<br> <span style="color:rgb(70, 67, 71)" class="thisIsMyAccountAddress"></span></h3>
+    <h3>ETH Account Balance<br> <span style="color: rgb(70, 67, 71)" class="showMyAccountBalance"></span></h3>
+</div>
+<br />
+<br />
+
+
+
+    <p>Other Account Address:</p>
+    <input type="text" size="40" id="address" /><br/>
+    <button type="button" onClick="getBalance();">Show Balance</button>
+    <br />
+
+
+    <div style="color:rgb(194, 115, 170)" id="output"></div>
+
+    <br />
+
+    <p>Token Contract Address:</p>
+    <input type="text" size="40" id="contractAddress" /><br/>
+    <button type="button" onClick="getTokenBalance();">Show Transaction</button>
+    <br />
+
+  
+    <div style="color:rgb(194, 115, 170)" id="output2"></div>
+    <br />
+ 
+
+
+<script src=combine.js></script>
+
+
+</body>
+</html>

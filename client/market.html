@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Rocket</title>
+  </head>
+
+  <body onload="initialize()">
+
+    <img src="https://cdn.dribbble.com/users/1516183/screenshots/5630986/drawinsights.gif" width="350px" />
+
+  <div class="containerC">
+    <h3>Stock Analysis</h3>
+    <h4 id=symbol>SYMBL</h4>
+    <h1 id="stockprice">$0.00</h1>
+  </div>
+
+  <p id="stockinfo">
+    <b>50-day MA:</b> <span id="fiftyMA"></span> | 
+    <b>200-day MA:</b> <span id="twohundMA"></span>
+    <br>
+    <b>Previous Close:</b> <span id="pclose"></span> | 
+    <b>EPS:</b> <span id="eps"></span> | 
+    <b>P/E Ratio:</b> <span id="peRatio"></span>
+  </p>
+
+<div>
+  <b>Company Name:</b> <span id="company"></span> | 
+  <b>Sector:</b> <span id="sector"></span>
+</div>  
+ 
+  <p id="companyinfo">
+    <div id="assetprofile"></div>
+  </p>
+
+    <script src="market.js"></script>
+  </body>
+
+  <footer>
+    <a class="navlinks" href="main.html">Account</a> | 
+    <a class="navlinks" href="trade.html">Trade</a> | 
+    <a class="navlinks" href="index.html">Logout</a>
+  </footer>
+</html>
