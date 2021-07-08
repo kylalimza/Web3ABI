@@ -6,7 +6,8 @@
 * MYSQL database backend 
 * Real-time stock quotes
 
-And also 
+And also for PC3
+
 * Connect our apps to MetaMask using web3 
 * Create button token in the application. To click the button and display the number of tokens and ETH in the metaMask account
 
