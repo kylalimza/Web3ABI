@@ -7,8 +7,8 @@ if (typeof window.ethereum !=='undefined') {
     }
     
     
-    const ethereumButton=document.querySelector('.magicButton');
-    const showAccount= document.querySelector('.thisIsMyAccountAddress');
+    const ethereumButton = document.querySelector('.magicButton');
+    const showAccount = document.querySelector('.thisIsMyAccountAddress');
     const showBalance = document.querySelector('.showMyAccountBalance')
     ethereumButton.addEventListener('click',()=> {
 
