@@ -1,8 +1,8 @@
 # How to connect MetaMask using Web3 and TokenABI? 
 
 ### Objective:
-### 1) Get the ETH Balance of an Ethereum Address
-### 2) Get ERC20 Token Balance using ABI
+### 1) Show the ETH Balance with Metamask / Account Address
+### 2) Show the ERC20 Token Balance using ABI
 <br>
 
 ## Why MetaMask? : Its background and purpose
